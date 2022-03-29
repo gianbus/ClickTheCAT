@@ -1,4 +1,10 @@
 let k=0;
+
+function reset(){
+    k=0;
+    document.getElementById("res").innerHTML = "Click on a cat!";
+}
+
 function gatto(x) {
     document.getElementById("gatto"+x.toString()).style.visibility = "hidden";
     k+=Math.floor(Math.random() * 100);
