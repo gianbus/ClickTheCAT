@@ -2,7 +2,14 @@ let k=0;
 
 function reset(){
     k=0;
+    var gattinovisibilek;
     document.getElementById("res").innerHTML = "Click on a cat!";
+    for (let index = 1; index < 10 ; index++) {
+        gattinovisibilek = "gatto"+index.toString();
+        document.getElementById(gattinovisibilek).style.visibility = "hidden";
+    }
+    gattinovisibilek = "gatto"+(Math.floor(Math.random() * 9)+1).toString();
+    document.getElementById(gattinovisibilek).style.visibility = "visible";
 }
 
 function gatto(x) {

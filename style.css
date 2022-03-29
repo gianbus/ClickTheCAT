@@ -28,3 +28,7 @@ button{
     width: 200px;
     border-radius: 15px;
 }
+
+#game{
+    border:15px solid rgb(0, 0, 0);
+}
