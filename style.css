@@ -22,3 +22,9 @@ h1{
     border: 2px solid black;
     border-radius: 20px;
 }
+
+button{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 15px;
+}
