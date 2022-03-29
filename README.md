@@ -1,3 +1,3 @@
 # ClickTheCAT
-ClickTheCAT is a hilarious game. Nothing more.
+ClickTheCAT is an hilarious game. Nothing more.
 Waste your time and play!
